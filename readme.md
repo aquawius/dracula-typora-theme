@@ -26,3 +26,7 @@ Dracula Typora Theme: https://theme.typora.io/theme/Dracula/
 - The default font is changed to [Cascadia Code](https://github.com/microsoft/cascadia-code). (If download!)
 - Changed the `h1-h6` title size.
 - Keep origin Dracula color.
+
+## License
+
+[MIT license](https://gitee.com/aquawius/dracula-typora-theme/blob/master/LICENSE)
