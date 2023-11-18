@@ -91,7 +91,7 @@
     --primary-btn-border-color: transparent;
     --primary-btn-text-color: var(--text-color2);
     /* implicit sidebar color */
-    --side-bar-bg-color: var(--bg-color1);
+    --side-bar-bg-color: var(--bg-color2);
     --control-text-color: var(--text-color2);
     /* implicit text color */
     --text-color: var(--text-color1);
@@ -118,7 +118,7 @@
     --node-border: var(--menu-divider-color);
     --node-fill: var(--bg-color2);
 
-    --monospace: "Cascadia Code", "微软雅黑", Menlo, Monaco, "Courier New",
+    --monospace: "CaskaydiaCove NF", "Cascadia Code", "微软雅黑", Menlo, Monaco, "Courier New",
         monospace;
 }
 
@@ -158,7 +158,7 @@ html {
 }
 
 body {
-    font-family: "Cascadia Code", "微软雅黑", "Open Sans", "Clear Sans",
+    font-family: "CaskaydiaCove NF", "Cascadia Code", "微软雅黑", "Open Sans", "Clear Sans",
         "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--text-color1);
     background: var(--bg-color1);
@@ -201,27 +201,27 @@ a:hover {
 }
 
 #write h1 {
-    font-size: 2.2em;
+    font-size: 2.4em;
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--text-color3);
 }
 
 #write h2 {
-    font-size: 2em;
+    font-size: 2.1em;
     padding-bottom: 0.3em;
     border-bottom: 1px solid var(--text-color3);
 }
 
 #write h3 {
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 
 #write h4 {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 #write h5 {
-    font-size: 1.35em;
+    font-size: 1.4em;
 }
 
 #write h6 {
@@ -330,7 +330,7 @@ table tr td:last-child {
 }
 
 /* arrow of adjusting table panel */
-.popover.bottom > .arrow:after {
+.popover.bottom>.arrow:after {
     border-bottom-color: var(--bg-color2);
 }
 
@@ -374,7 +374,7 @@ table tr td:last-child {
 }
 
 /* task */
-.md-task-list-item > input {
+.md-task-list-item>input {
     margin-left: -1.3em;
 }
 
@@ -393,18 +393,18 @@ sup.md-footnote {
     opacity: 1;
 }
 
-.md-rawblock > .md-rawblock-container {
+.md-rawblock>.md-rawblock-container {
     transition: 0.5s;
 }
 
-.md-rawblock > .md-rawblock-tooltip {
+.md-rawblock>.md-rawblock-tooltip {
     transition: 0.5s;
     display: block;
     visibility: hidden;
     opacity: 0;
 }
 
-.md-rawblock:hover > .md-rawblock-tooltip {
+.md-rawblock:hover>.md-rawblock-tooltip {
     transition: 0.5s;
     visibility: visible;
     opacity: 1;
@@ -412,7 +412,7 @@ sup.md-footnote {
 }
 
 /* meta information of image */
-.md-image > .md-meta {
+.md-image>.md-meta {
     border: 0px;
     padding: 2px 0px 0px 4px;
     font-size: 0.9em;
@@ -664,11 +664,11 @@ input[type="radio"]:checked:before {
 }
 
 /* sidebar file menu item */
-.dropdown-menu > li > a {
+.dropdown-menu>li>a {
     color: var(--text-color2);
 }
 
-.dropdown-menu > li > a:hover {
+.dropdown-menu>li>a:hover {
     color: var(--hover-text-color);
 }
 
@@ -678,12 +678,12 @@ input[type="radio"]:checked:before {
 }
 
 /* sidebar file menu divider */
-#sidebar-files-menu > .show + .menuitem-group-label.show {
+#sidebar-files-menu>.show+.menuitem-group-label.show {
     border-color: var(--menu-divider-color);
 }
 
 /* sidebar osx tab */
-.html-for-mac .sidebar-osx-tab > .sidebar-tabs {
+.html-for-mac .sidebar-osx-tab>.sidebar-tabs {
     border: 0px;
 }
 
@@ -693,7 +693,7 @@ input[type="radio"]:checked:before {
 }
 
 /* remove outline when file item in treeview is selected*/
-.file-library-node:not(.file-node-root):focus > .file-node-content {
+.file-library-node:not(.file-node-root):focus>.file-node-content {
     outline: none;
 }
 
@@ -1431,7 +1431,7 @@ pre.md-meta-block:active {
 }
 
 /* active file in sidebar file menu tree view */
-.file-tree-node.active > .file-node-background {
+.file-tree-node.active>.file-node-background {
     background-color: var(--hover-bg-color1);
 }
 
@@ -1803,19 +1803,19 @@ pre[mermaid-type="erDiagram"] path {
 }
 
 /* mermaid pie chart */
-g.legend > text {
+g.legend>text {
     fill: var(--text-color1) !important;
 }
 
-g.legend > rect {
+g.legend>rect {
     stroke: var(--bg-color) !important;
 }
 
-g > path {
+g>path {
     stroke: var(--bg-color) !important;
 }
 
-g > text.slice {
+g>text.slice {
     fill: var(--bg-color) !important;
 }
 
