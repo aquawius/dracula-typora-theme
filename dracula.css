@@ -83,7 +83,7 @@
     --code-grey-color: var(--dracula-comment);
 
     --code-select-bg-color: var(--dracula-comment);
-    --code-cursor-color: var(--dracula-current-line);
+    --code-cursor-color: var(--dracula-foreground-fade);
     /* implicit selection text bg color */
     --select-text-bg-color: var(--dracula-comment);
     /* implicit button color */
@@ -1044,8 +1044,8 @@ code {
     background-color: var(--bg-color5);
     border-radius: 6px;
     padding: 8px 4px 8px 4px !important;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .md-fences .code-tooltip {
