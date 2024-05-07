@@ -1044,8 +1044,8 @@ code {
     background-color: var(--bg-color5);
     border-radius: 6px;
     padding: 8px 4px 8px 4px !important;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    /* margin-top: 0px; */
+    /* margin-bottom: 0px; */
 }
 
 .md-fences .code-tooltip {
