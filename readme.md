@@ -4,6 +4,9 @@ A [Dracula Spec](https://draculatheme.com) based theme for the [Typora Markdown 
 
 Some changes made by aquawius.
 
+Origin code here:
+[Typora Dracula](https://theme.typora.io/theme/Dracula/) or [Github](https://github.com/Teyler7/dracula-typora-theme)
+
 ![img](./readme.assets/dracula-typora-1676192345437-7.png)
 
 Typora Themes: https://theme.typora.io/
@@ -25,7 +28,7 @@ Dracula Typora Theme: https://theme.typora.io/theme/Dracula/
 
 - The default font is changed to [Cascadia Code](https://github.com/microsoft/cascadia-code). (If download!)
 - Changed the `h1-h6` title size.
-- Keep origin Dracula color.
+- Keep origin Dracula color series.
 
 ## License
 
