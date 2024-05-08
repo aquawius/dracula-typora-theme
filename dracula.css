@@ -64,7 +64,7 @@
     --menu-divider-color: var(--dracula-foreground);
     /* scrollbar color */
     --scrollbar-thumb-color: var(--menu-divider-color);
-    --scrollbar-track-color: var(--dracula-background);
+    --scrollbar-track-color: var(--dracula-current-line);
     /* theme select color */
     --theme-select-color: var(--dracula-current-line);
     --button-color: var(--dracula-comment);
@@ -913,6 +913,7 @@ select[disabled]:hover {
 footer.ty-footer {
     border-top: 0px !important;
     background-color: var(--bg-color2) !important;
+    right: 8px;
 }
 
 /* footer item */
@@ -965,7 +966,7 @@ footer.ty-footer {
 /* scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
-    padding-right: 10px;
+    border-radius: 4px;
     background-color: var(--scrollbar-track-color);
 }
 
@@ -976,10 +977,17 @@ footer.ty-footer {
 }
 
 /* scrollbar thumb */
-::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb{
+    background-clip: border-box;        
+    /* default window.html define is padding-box, But it will block part of the progress bar.   */
+    /* fix it with default "border-box" */
+    background-color: var(--scrollbar-thumb-color) !important;
+
+    border-radius: 4px;
+}
+
 ::-webkit-scrollbar-thumb:active {
     background-color: var(--scrollbar-thumb-color) !important;
-    border-radius: 4px;
 }
 
 /* tip when hover on a button */
@@ -1044,8 +1052,8 @@ code {
     background-color: var(--bg-color5);
     border-radius: 6px;
     padding: 8px 4px 8px 4px !important;
-    /* margin-top: 0px; */
-    /* margin-bottom: 0px; */
+    /* margin-top:  15px; */
+    /* margin-bottom: 15px; */
 }
 
 .md-fences .code-tooltip {
@@ -1279,6 +1287,7 @@ pre.md-meta-block:active {
 /* switch between different mode */
 #typora-source {
     display: block !important;
+    top: 0px;                   /* fix scrollbar not fresh(still on top); */
     visibility: hidden;
     opacity: 0;
     transition: 0.3s;
