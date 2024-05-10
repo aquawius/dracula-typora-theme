@@ -2,7 +2,7 @@
 
 A [Dracula Spec](https://draculatheme.com) based theme for the [Typora Markdown Editor](https://typora.io).
 
-Some changes made by aquawius.
+Some changes made by [aquawius](https://github.com/aquawius)(It's me).
 
 Origin code here:
 [Typora Dracula](https://theme.typora.io/theme/Dracula/) or [Github](https://github.com/Teyler7/dracula-typora-theme)
@@ -26,7 +26,8 @@ Dracula Typora Theme: https://theme.typora.io/theme/Dracula/
 
 ## Note
 
-- The default font is changed to [Cascadia Code](https://github.com/microsoft/cascadia-code). (If download!)
+- The default font is changed to [Cascadia Code NF / Cascadia Code](https://github.com/microsoft/cascadia-code) (Already includes woff2 font in dracula folder.). In theory, there is no need to install Cascadia Code manually.
+- Cascadia Code's `Nerd Font` is used by default.
 - Changed the `h1-h6` title size.
 - Keep origin Dracula color series.
 

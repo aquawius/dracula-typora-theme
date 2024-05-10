@@ -118,38 +118,68 @@
     --node-border: var(--menu-divider-color);
     --node-fill: var(--bg-color2);
 
-    --monospace: "CaskaydiaCove NF", "Cascadia Code", "微软雅黑", Menlo, Monaco, "Courier New",
-        monospace;
+    --monospace: "Cascadia Code NF", "Cascadia Code", "微软雅黑", Menlo, Monaco, "Courier New",
+        monospace, Arial, sans-serif;
 }
 
-/* font */
+/* Font Regular and Bold */
 @font-face {
-    font-family: "Open Sans";
-    font-style: normal;
+    font-family: "Cascadia Code NF";
+    src: local("Cascadia Code NF"), url("./dracula/CascadiaCodeNF.woff2") format("woff2");
     font-weight: normal;
-    src: local("Open Sans Regular"), url("./dracula/400.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Open Sans";
-    font-style: italic;
-    font-weight: normal;
-    src: local("Open Sans Italic"), url("./dracula/400i.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Open Sans";
     font-style: normal;
-    font-weight: bold;
-    src: local("Open Sans Bold"), url("./dracula/700.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-style: italic;
+    font-family: "Cascadia Code NF";
+    src: local("Cascadia Code NF"), url("./dracula/CascadiaCodeNF.woff2") format("woff2");
     font-weight: bold;
-    src: local("Open Sans Bold Italic"),
-        url("./dracula/700i.woff") format("woff");
+    font-style: normal;
+}
+
+/* Font Italic */
+@font-face {
+    font-family: "Cascadia Code NF";
+    src: local("Cascadia Code NF"), url("./dracula/CascadiaCodeNFItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cascadia Code NF";
+    src: local("Cascadia Code NF"), url("./dracula/CascadiaCodeNFItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* 普通和粗体的 CascadiaCode */
+@font-face {
+    font-family: "Cascadia Code";
+    src: local("Cascadia Code"), url("./dracula/CascadiaCode.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cascadia Code";
+    src: local("Cascadia Code"), url("./dracula/CascadiaCode.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 斜体的 CascadiaCode */
+@font-face {
+    font-family: "Cascadia Code";
+    src: local("Cascadia Code"), url("./dracula/CascadiaCodeItalic.woff2") format("woff2");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cascadia Code";
+    src: local("Cascadia Code"), url("./dracula/CascadiaCodeItalic.woff2") format("woff2");
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* basic style */
@@ -158,8 +188,8 @@ html {
 }
 
 body {
-    font-family: "CaskaydiaCove NF", "Cascadia Code", "微软雅黑", "Open Sans", "Clear Sans",
-        "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Cascadia Code NF", "Cascadia Code", "微软雅黑", Menlo, Monaco, "Courier New",
+        monospace, Arial, sans-serif;
     color: var(--text-color1);
     background: var(--bg-color1);
     line-height: 1.6;
