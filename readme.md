@@ -20,9 +20,23 @@ Dracula Typora Theme: https://theme.typora.io/theme/Dracula/
 * Copy the dracula folder and dracula.css file into the newly opened Typora theme folder.
 * Restart typora, then select `Dracula` from Themes menu.
 
-## Screen shot
+## Screen shots
+
+This readme.md page:
 
 ![image-20230212170428204](./readme.assets/image-20230212170428204.png)
+
+`Normal` mode:
+
+![PixPin_2024-05-10_14-20-35](./readme.assets/PixPin_2024-05-10_14-20-35.png)
+
+`Source Code` mode:
+
+![PixPin_2024-05-10_14-20-54](./readme.assets/PixPin_2024-05-10_14-20-54.png)
+
+`Actually working`:
+
+![PixPin_2024-05-10_13-59-17](./readme.assets/PixPin_2024-05-10_13-59-17.png)
 
 ## Note
 
