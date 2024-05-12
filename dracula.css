@@ -14,6 +14,7 @@
 
     /* dracula custom colors for typora */
     --dracula-foreground-fade: rgba(248, 248, 242, 0.5);
+    --dracula-code-selected: rgb(54, 57, 72);
     --dracula-background-dark: rgb(32, 34, 39);
 
     /* dark color for background*/
@@ -82,7 +83,7 @@
     --code-green-color: var(--dracula-green);
     --code-grey-color: var(--dracula-comment);
 
-    --code-select-bg-color: var(--dracula-comment);
+    --code-select-bg-color: var(--dracula-code-selected);
     --code-cursor-color: var(--dracula-foreground-fade);
     /* implicit selection text bg color */
     --select-text-bg-color: var(--dracula-comment);
@@ -108,7 +109,6 @@
     --blur-text-color: var(--text-color5);
     /* implicit search result select color */
     --search-select-bg-color: var(--select-text-bg-color);
-    --search-select-bg-color: var(--dracula-comment);
 
     --control-text-hover-color: var(--dracula-current-line);
     /* implicit active file color in sidebar file menu tree view */
@@ -118,8 +118,7 @@
     --node-border: var(--menu-divider-color);
     --node-fill: var(--bg-color2);
 
-    --monospace: "Cascadia Code NF", "Cascadia Code", "微软雅黑", Menlo, Monaco, "Courier New",
-        monospace, Arial, sans-serif;
+    --monospace: "Cascadia Code NF", "Cascadia Code", "Microsoft YaHei", "微软雅黑", Menlo, Monaco, "Courier New", monospace, Arial, sans-serif;
 }
 
 /* Font Regular and Bold */
@@ -1126,7 +1125,7 @@ code {
 .cm-s-inner .cm-operator {
     color: var(--code-cyan-color) !important;
 }
-
+ 
 .cm-s-inner .cm-keyword {
     color: var(--code-purple-color) !important;
 }
