@@ -224,7 +224,7 @@ a:hover {
 #write h5,
 #write h6 {
     margin-top: 0.5em;
-    margin-bottom: 0em;
+    margin-bottom: 0.2em;
     line-height: 1em;
     padding-top: 0.3em;
 }
@@ -242,10 +242,12 @@ a:hover {
 }
 
 #write h3 {
+    padding-bottom: 0.2em;
     font-size: 1.8em;
 }
 
 #write h4 {
+    padding-bottom: 0.1em;
     font-size: 1.6em;
 }
 
@@ -276,6 +278,25 @@ blockquote {
     padding: 4px 15px;
     color: var(--text-color1);
     background-color: var(--bg-color5);
+}
+
+blockquote>:first-child {
+    margin-top: 0;
+}
+
+blockquote>:last-child {
+    margin-bottom: 0;
+}
+
+li>:first-child {
+    margin-top: 8px;
+}
+
+blockquote li:first-child p {
+    margin-top: 0;
+}
+blockquote li:last-child p {
+    margin-bottom: 0;
 }
 
 blockquote blockquote {
